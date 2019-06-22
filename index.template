@@ -16,10 +16,8 @@
     <div class="jumbotron text-center" id="maincontent">
         <h1>YOU HAVE JUST BEEN SERVED!</h1>
         <img src="https://media.giphy.com/media/wpci3xdYmUZG/giphy.gif">
-        <p>
-            By: INSTANCE
-            At: IPPUB/IPPRIV
-            In: AZ
-        </p> 
+        <p>By: <h3>INSTANCE</h3></p>
+        <p>At: <h3>IPPUB/IPPRIV</h3></p>
+        <p>In: <h3>AZ</h3></p> 
       </div>
 </body>
