@@ -1,0 +1,42 @@
+Outline -
+Configure environment
+  Default VPC
+  Create Instance SG
+  Create LB SG
+  Launch instances (two seperate availabilty zones)
+THE MEAT
+  Elastic Load Balancer -
+    Classic Load Balancer (what used to be the only way, intended to maintain compat with EC2 Classic)
+    Application Load Balancer (HTTP/HTTPS)
+    Network Load Balancer (TCP/TLS)
+  Create Application Load Balancer
+  Demo
+
+
+Reference:
+https://aws.amazon.com/elasticloadbalancing/
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-load-balancer-routing.html
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/tutorial-application-load-balancer-cli.html
+
+Launch instance
+Create Target Group
+Create Load Balancer
+Confirm load balancer serves from single instance
+add second instance
+confirm load balancing uses both instances
+secure security groups
+add HTTPS listener
+Launch instances 3/4
+Create second target group
+Change listener forward to second target group
+Confirm change (lulz)
+Create ALL target group
+Create content based path rules
+Confirm demonstrate, party
+
+Go edit
+???
+
+We're in the EC2 Console.
+First we're going to launch EC2 instances that server our webpage.
+ 
