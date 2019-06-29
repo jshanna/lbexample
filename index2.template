@@ -28,7 +28,7 @@
       <div class="d-flex align-items-center justify-content-center h-100">
         <div class="d-flex flex-column">
           <div class="jumbotron text-center" id="maincontent">
-            <h1>Terry Cox Narrates My Dreams</h1>
+            <h1>Terry Narrates My Dreams</h1>
             <img class="rotate" src="terrynoback.png">
           </div>
         </div>
