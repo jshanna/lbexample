@@ -11,7 +11,15 @@
   <style>
       body {background-color: #BGCOLOR;}
       body,html {height: 100%;}
-      .rotate { animation: rotation 2s infinite linear;}
+      .rotate { animation: rotation 5s infinite linear;}
+      @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
   </style>
 </head>
 <body>
@@ -20,11 +28,8 @@
       <div class="d-flex align-items-center justify-content-center h-100">
         <div class="d-flex flex-column">
           <div class="jumbotron text-center" id="maincontent">
-            <h1>YOU HAVE JUST BEEN SERVED!</h1>
-            <img src="https://media.giphy.com/media/wpci3xdYmUZG/giphy.gif">
-            <p>By: <kbd>INSTANCE</kbd></p>
-            <p>At: <kbd>IPPUB / IPPRIV</kbd></p>
-            <p>In: <kbd>AZ</kbd></p> 
+            <h1>Terry Cox Narrates My Dreams</h1>
+            <img class="rotate" src="terrynoback.png">
           </div>
         </div>
       </div>
