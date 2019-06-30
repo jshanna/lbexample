@@ -21,7 +21,7 @@
         <div class="d-flex flex-column">
           <div class="jumbotron text-center" id="maincontent">
             <h1>YOU HAVE JUST BEEN SERVED!</h1>
-            <img src="https://media.giphy.com/media/wpci3xdYmUZG/giphy.gif">
+            <img src="https://lbexamplemedia.s3-us-west-1.amazonaws.com/bear.webp">
             <p>By: <kbd>INSTANCE</kbd></p>
             <p>At: <kbd>IPPUB / IPPRIV</kbd></p>
             <p>In: <kbd>AZ</kbd></p> 

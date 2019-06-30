@@ -29,7 +29,7 @@
         <div class="d-flex flex-column">
           <div class="jumbotron text-center" id="maincontent">
             <h1>Terry Narrates My Dreams</h1>
-            <img class="rotate" src="terrynoback.png">
+            <img class="rotate" src="https://lbexamplemedia.s3-us-west-1.amazonaws.com/terrynoback.png">
           </div>
         </div>
       </div>
